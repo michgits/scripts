@@ -20,7 +20,13 @@ local Button = Tab:CreateButton({
 	end,
 })
 local Button = Tab:CreateButton({
-	Name = "uranium hub",
+	Name = "sonic hub [keyless]",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "uranium hub [keyless]",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
 	end,
